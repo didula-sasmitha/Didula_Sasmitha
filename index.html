@@ -355,7 +355,7 @@
 <!-------------------------------------------------------------------------------------Star JS------------------------------------------------------------------------------------------> 
 
 
-
+<button onclick="showAlert('This is a custom alert!')">Show Alert</button>
 
 <!-------------------------------------------------------------------------------------Star Tab-Link JS------------------------------------------------------------------------------------------>
 
@@ -485,8 +485,10 @@ form.addEventListener('submit', e => {
         });
 });
 </script>
-<script>
 
+
+
+<script>
 function showAlert(message) {
     const alertBox = document.createElement('div');
     alertBox.className = 'custom-alert';
