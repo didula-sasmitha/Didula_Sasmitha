@@ -555,6 +555,11 @@ nav ul li a:hover::after {
     .tab-link {
         font-size: 14px;
     }
+     #about img {
+        width: 90%;
+        margin-left: 0;
+        margin-bottom: 15%;
+    }
 }
 
 /*---------------------End About Responisive---------------------------- */
