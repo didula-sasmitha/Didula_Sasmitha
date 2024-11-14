@@ -484,6 +484,10 @@ nav ul li a:hover::after {
         color: #ff004f;
     }
 
+    #about img:hover {
+        transform: none;
+    }
+
     .row {
         flex-direction: column;
     }
@@ -526,6 +530,10 @@ nav ul li a:hover::after {
         margin-bottom: 15%;
     }
 
+    #about img:hover {
+        transform: none;
+    }
+
 
 }
 
@@ -559,6 +567,10 @@ nav ul li a:hover::after {
         width: 60%;
         margin-left: 0;
         margin-bottom: 15%;
+    }
+
+    #about img:hover {
+        transform: none;
     }
 }
 
