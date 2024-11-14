@@ -1543,13 +1543,12 @@ nav ul li a:hover::after {
 
 
 /* ----------------------------Start Alert---------------------------------- */
-
 .custom-alert {
     position: fixed;
     top: 20px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #00fdd3;
+    background-color: #ffcc00;
     color: #333;
     padding: 15px 20px;
     border-radius: 8px;
@@ -1559,6 +1558,9 @@ nav ul li a:hover::after {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     animation: slideDown 0.3s ease, fadeOut 0.3s ease 2.7s forwards;
     z-index: 9999;
+    max-width: 90%; /* Ensures it fits within smaller screens */
+    text-align: center; /* Center-aligns text for better readability */
+    word-wrap: break-word; /* Prevents text from overflowing */
 }
 
 @keyframes slideDown {
